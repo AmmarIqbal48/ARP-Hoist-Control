@@ -83,4 +83,4 @@ This command will uninstall all the files once you will excute thi command.
 
 Should you experience some weird behavior after launching the application (buttons not spawning inside the GUI or graphical assets misaligned) simply try to resize the terminal window, it should solve the bug.
 
-Yoc take other help from the help command.
+You take other help from the help command.
