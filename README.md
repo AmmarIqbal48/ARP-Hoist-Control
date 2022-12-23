@@ -32,6 +32,9 @@ The project provides the basic functionalities for the **Command** and **Inspect
 - The `bin` folder is where the executable files are expected to be after compilation
 - The `run.sh` is a shell script which complie all of the processes and execute the master and the master process is a parent process, responsible for executing all child processes.
 
+![WhatsApp Image 2022-12-23 at 5 33 46 PM](https://user-images.githubusercontent.com/104999107/209401124-fa1591b4-c3dd-4ee9-83eb-2540280a734f.jpeg)
+
+
 ## Ncurses installation
 To install the ncurses library, simply open a terminal and type the following command:
 ```console
