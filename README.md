@@ -32,9 +32,6 @@ The project provides the basic functionalities for the **Command** and **Inspect
 - The `bin` folder is where the executable files are expected to be after compilation
 - The `run.sh` is a shell script which complie all of the processes and execute the master and the master process is a parent process, responsible for executing all child processes.
 
-![WhatsApp Image 2022-12-23 at 5 33 46 PM](https://user-images.githubusercontent.com/104999107/209401124-fa1591b4-c3dd-4ee9-83eb-2540280a734f.jpeg)
-[Screencast from 12-23-2022 04 30 51 AM.webm](https://user-images.githubusercontent.com/104999107/209401283-b2dbbc98-7253-405b-91c1-96dc7bf12c2f.webm)
-
 
 
 ## Ncurses installation
@@ -42,8 +39,6 @@ To install the ncurses library, simply open a terminal and type the following co
 ```console
 sudo apt-get install libncurses-dev
 ```
-
-
 
 ## Compiling and running the code
 The Command and Inspection processes depend on the ncurses library, which needs to be linked during the compilation step. Furthermore, the Inspection process also uses the mathematical library for some additional computation. Therefore the steps to compile are the following:
@@ -75,6 +70,12 @@ For the **Uninstallation**:
 	./uninstall.sh
 
 This command will uninstall all the files once you will excute thi command.
+
+![Command and inspection koncole](https://user-images.githubusercontent.com/104999107/209402215-d7baf132-4db7-43df-8481-ef3827715fca.jpeg)
+
+[How to install.webm](https://user-images.githubusercontent.com/104999107/209402812-d17ae5cc-2071-42d9-b4ea-ac79550ded0f.webm)
+
+[Controlling.webm](https://user-images.githubusercontent.com/104999107/209402971-74c0771d-0e62-41aa-b6ba-aa6315cb9d22.webm)
 
 
 
