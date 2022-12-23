@@ -32,35 +32,36 @@ To install the ncurses library, simply open a terminal and type the following co
 sudo apt-get install libncurses-dev
 ```
 
-## Quick Start
-The shell script is compiling all procsses and launching the master process. 
-1. Simply clone this repository in your workspace
-2. Enter in the project folder and Open the terminal.
-3. Run the shell script `run.sh`:
-	```console
-	./run.sh
-	```
+
 
 ## Compiling and running the code
 The Command and Inspection processes depend on the ncurses library, which needs to be linked during the compilation step. Furthermore, the Inspection process also uses the mathematical library for some additional computation. Therefore the steps to compile are the following:
-1. for the **Inspection process**:
-	```console
-	gcc src/inspection_console.c -lncurses -lm -o bin/inspection
+1. For the **Installation**:
+
+	 ```console
+	./install.sh
 	```
-2. for the **Command process**:
-	```console
-	gcc src/command_console.c -lncurses -o bin/command
+This command will install and unzip all the files once you have clone the repository.
+
+2. For the **Run**:
+         
+	 ```console
+	./run.sh
 	```
-3. for the **Master process**:
+THis command will run the run.sh file which will automatically run all the files the command console, inspection console and the master.
+3. For the **Help**:
 	```console
-	gcc src/master.c -o bin/master
+	./help.sh
 	```
-	
-After compiling, **assuming you have Konsole installed in your system** as per the professor's indications, you can **simply run the Master executable**, which will be responsible of spawning the two GUIs:
-```console
-./bin/master
-```
+## Unistalling
+        ```console
+	./uninstall.sh
+This command will uninstall all the files once you will excute thi command.
+
+
 
 ## Troubleshooting
 
 Should you experience some weird behavior after launching the application (buttons not spawning inside the GUI or graphical assets misaligned) simply try to resize the terminal window, it should solve the bug.
+
+Yoc take other help from the help command.
