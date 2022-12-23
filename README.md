@@ -1,5 +1,25 @@
 # ARP-Hoist-Control
 Base project structure for the first *Advanced and Robot Programming* (ARP) assignment.
+There are two motors.
+MotorX, MotorZ 
+These motors are moving the along to axis to move the object vertical and horizontal axis.
+
+The movement is bound from 0 to a maximum value of distance, which is set to 1, for each motor. 
+
+In the project there are 6 processes: 
+
+1) starter
+2) commandConsole
+3) inspectionConsole
+4) motorX 
+5) motorZ 
+6) watchdog 
+
+From the user side the commandConsole and the inspectionConsole acts as an interface to respectively manage the movement and other commands and to view the current position on the axis and to stop or reset the hoist position.
+
+The communication between the processes was managed through the use of pipes, that allow to write or read from a process to another one
+through a one to one connection.
+
 The project provides the basic functionalities for the **Command** and **Inspection processes**, both of which are implemented through the *ncurses library* as simple GUIs. In particular, the repository is organized as follows:
 - The `src` folder contains the source code for the Command, Inspection, MotorX, MotorZ and Master processes.
 - The `include` folder contains all the data structures and methods used within the ncurses framework to build the two GUIs. Unless you want to expand the graphical capabilities of the UIs (which requires understanding how ncurses works), you can ignore the content of this folder, as it already provides you with all the necessary functionalities.
