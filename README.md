@@ -1,10 +1,16 @@
 # ARP-Hoist-Control
+
+## Introduction
+
 Base project structure for the first *Advanced and Robot Programming* (ARP) assignment.
 There are two motors.
 MotorX, MotorZ 
 These motors are moving the along to axis to move the object vertical and horizontal axis.
 
 The movement is bound from 0 to a maximum value of distance, which is set to 1, for each motor. 
+![WhatsApp Image 2022-12-23 at 5 16 18 PM](https://user-images.githubusercontent.com/104999107/209366576-e1f2a79e-006d-420c-93fb-7e392ace60d6.jpeg)
+
+
 
 In the project there are 6 processes: 
 
@@ -26,7 +32,7 @@ The project provides the basic functionalities for the **Command** and **Inspect
 - The `bin` folder is where the executable files are expected to be after compilation
 - The `run.sh` is a shell script which complie all of the processes and execute the master and the master process is a parent process, responsible for executing all child processes.
 
-## ncurses installation
+## Ncurses installation
 To install the ncurses library, simply open a terminal and type the following command:
 ```console
 sudo apt-get install libncurses-dev
