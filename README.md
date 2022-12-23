@@ -54,6 +54,8 @@ THis command will run the run.sh file which will automatically run all the files
 	./help.sh
 	```
 ## Unistalling
+
+For the **Unistallation**:
         ```console
 	./uninstall.sh
 	```
