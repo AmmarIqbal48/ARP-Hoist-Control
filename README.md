@@ -56,6 +56,7 @@ THis command will run the run.sh file which will automatically run all the files
 ## Unistalling
         ```console
 	./uninstall.sh
+	```
 This command will uninstall all the files once you will excute thi command.
 
 
