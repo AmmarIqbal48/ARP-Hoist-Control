@@ -49,16 +49,20 @@ This command will install and unzip all the files once you have clone the reposi
 	./run.sh
 	```
 THis command will run the run.sh file which will automatically run all the files the command console, inspection console and the master.
+
 3. For the **Help**:
+
 	```console
 	./help.sh
 	```
-## Unistalling
+This Command will show the list of all the motors and how to control them.
 
-For the **Unistallation**:
-        ```console
+## Uninstalling
+
+For the **Uninstallation**:
+
 	./uninstall.sh
-	```
+
 This command will uninstall all the files once you will excute thi command.
 
 
